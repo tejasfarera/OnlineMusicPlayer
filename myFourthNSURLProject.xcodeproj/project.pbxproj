@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952362D922E8A63600FD2504 /* SongWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952362D822E8A63600FD2504 /* SongWebViewController.swift */; };
+		952EF86722E74E2D00EC85C2 /* SongDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952EF86622E74E2D00EC85C2 /* SongDetailViewController.swift */; };
+		95F5B27522E9D3D200C3DEC1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5B27422E9D3D200C3DEC1 /* Model.swift */; };
 		95FAEFF422E5D17F007B41E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FAEFF322E5D17F007B41E7 /* AppDelegate.swift */; };
-		95FAEFF622E5D17F007B41E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FAEFF522E5D17F007B41E7 /* ViewController.swift */; };
+		95FAEFF622E5D17F007B41E7 /* SongHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FAEFF522E5D17F007B41E7 /* SongHomeViewController.swift */; };
 		95FAEFF922E5D17F007B41E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FAEFF722E5D17F007B41E7 /* Main.storyboard */; };
 		95FAEFFB22E5D17F007B41E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FAEFFA22E5D17F007B41E7 /* Assets.xcassets */; };
 		95FAEFFE22E5D17F007B41E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FAEFFC22E5D17F007B41E7 /* LaunchScreen.storyboard */; };
 		95FAF00922E5D17F007B41E7 /* myFourthNSURLProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FAF00822E5D17F007B41E7 /* myFourthNSURLProjectTests.swift */; };
 		95FAF01422E5D180007B41E7 /* myFourthNSURLProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FAF01322E5D180007B41E7 /* myFourthNSURLProjectUITests.swift */; };
+		95FAF02222E5D2A4007B41E7 /* songTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FAF02122E5D2A4007B41E7 /* songTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		952362D822E8A63600FD2504 /* SongWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongWebViewController.swift; sourceTree = "<group>"; };
+		952EF86622E74E2D00EC85C2 /* SongDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailViewController.swift; sourceTree = "<group>"; };
+		95F5B27422E9D3D200C3DEC1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		95FAEFF022E5D17F007B41E7 /* myFourthNSURLProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFourthNSURLProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FAEFF322E5D17F007B41E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95FAEFF522E5D17F007B41E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95FAEFF522E5D17F007B41E7 /* SongHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongHomeViewController.swift; sourceTree = "<group>"; };
 		95FAEFF822E5D17F007B41E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95FAEFFA22E5D17F007B41E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95FAEFFD22E5D17F007B41E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		95FAF00F22E5D180007B41E7 /* myFourthNSURLProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFourthNSURLProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FAF01322E5D180007B41E7 /* myFourthNSURLProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFourthNSURLProjectUITests.swift; sourceTree = "<group>"; };
 		95FAF01522E5D180007B41E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FAF02122E5D2A4007B41E7 /* songTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,13 @@
 		95FAEFF222E5D17F007B41E7 /* myFourthNSURLProject */ = {
 			isa = PBXGroup;
 			children = (
-				95FAEFF322E5D17F007B41E7 /* AppDelegate.swift */,
-				95FAEFF522E5D17F007B41E7 /* ViewController.swift */,
 				95FAEFF722E5D17F007B41E7 /* Main.storyboard */,
+				95FAEFF322E5D17F007B41E7 /* AppDelegate.swift */,
+				95F5B27422E9D3D200C3DEC1 /* Model.swift */,
+				95FAEFF522E5D17F007B41E7 /* SongHomeViewController.swift */,
+				952EF86622E74E2D00EC85C2 /* SongDetailViewController.swift */,
+				952362D822E8A63600FD2504 /* SongWebViewController.swift */,
+				95FAF02122E5D2A4007B41E7 /* songTableViewCell.swift */,
 				95FAEFFA22E5D17F007B41E7 /* Assets.xcassets */,
 				95FAEFFC22E5D17F007B41E7 /* LaunchScreen.storyboard */,
 				95FAEFFF22E5D17F007B41E7 /* Info.plist */,
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95FAEFF622E5D17F007B41E7 /* ViewController.swift in Sources */,
+				95FAEFF622E5D17F007B41E7 /* SongHomeViewController.swift in Sources */,
+				95FAF02222E5D2A4007B41E7 /* songTableViewCell.swift in Sources */,
+				952EF86722E74E2D00EC85C2 /* SongDetailViewController.swift in Sources */,
+				95F5B27522E9D3D200C3DEC1 /* Model.swift in Sources */,
 				95FAEFF422E5D17F007B41E7 /* AppDelegate.swift in Sources */,
+				952362D922E8A63600FD2504 /* SongWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A76HWJVB33;
 				INFOPLIST_FILE = myFourthNSURLProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A76HWJVB33;
 				INFOPLIST_FILE = myFourthNSURLProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
